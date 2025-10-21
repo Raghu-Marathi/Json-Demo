@@ -42,4 +42,8 @@ public class JsonDeSerialization {
 
 	}
 
+    public void m1(){
+        System.out.println("stash : m1 method");
+    }
+
 }
