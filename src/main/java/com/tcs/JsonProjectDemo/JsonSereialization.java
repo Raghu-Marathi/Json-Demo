@@ -30,9 +30,16 @@ public class JsonSereialization {
     a2.setState("AndraPradesh");
     a2.setPinCode(544544l);
     a2.setCountry("India");
+
+	Address a3=new Address();
+    a2.setCity("Nellore");
+    a2.setState("AndraPradesh");
+    a2.setPinCode(543322);
+    a2.setCountry("India");
     
     address.add(a1);
     address.add(a2);
+    address.add(a3);
     
     e.setAddress(address);
     
