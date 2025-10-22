@@ -34,7 +34,7 @@ public class JsonSereialization {
 	Address a3=new Address();
     a3.setCity("Nellore");
     a3.setState("AndraPradesh");
-    a3.setPinCode(543322);
+    a3.setPinCode(543322l);
     a3.setCountry("India");
     
     address.add(a1);
